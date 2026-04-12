@@ -1,0 +1,81 @@
+Synit Repository License (SRL) v1.0
+
+Copyright (c) 2026 synit.io
+All rights reserved.
+
+1. Definitions
+
+"Software" means the contents of this repository, including source code,
+modules, scripts, documentation, and any modifications.
+
+"Use" means running, copying, modifying, and creating derivative works of the
+Software.
+
+"Commercial Internal Use" means use of the Software inside your own
+organization, including for business purposes, without offering the Software as
+a standalone or embedded commercial service to third parties.
+
+"Service/Distribution Monetization" means directly or indirectly making money
+from distributing, sublicensing, hosting, managing, operating, or providing
+access to the Software (or substantial portions/derivatives) as a product,
+service, managed service, SaaS, platform feature, or distributor/reseller
+offering for third parties.
+
+2. Grant of Rights
+
+Subject to this license, synit.io grants you a non-exclusive,
+worldwide, royalty-free license to:
+
+- Use the Software for personal, educational, and internal business purposes;
+- Modify the Software for your own use;
+- Share source modifications within your own organization.
+
+Commercial Internal Use is explicitly permitted.
+
+3. Restrictions
+
+You may not, without prior written permission from synit.io:
+
+- Sell, sublicense, distribute for a fee, or commercially redistribute the
+  Software as a standalone offering;
+- Offer the Software (or modified versions) as a hosted, managed, or
+  service-provider solution to third parties for monetary gain;
+- Monetize the Software through distributor, reseller, or integrator channels
+  where the Software is a material part of the paid offering;
+- Remove or alter this license notice.
+
+Only synit.io, as the original creator, is authorized to perform
+Service/Distribution Monetization of this Software.
+
+4. Ownership
+
+The Software is licensed, not sold. synit.io retains all right, title,
+and interest in and to the Software.
+
+5. Contributions
+
+Unless explicitly agreed otherwise in writing, any contribution submitted to
+this repository is provided under this same license.
+
+6. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7. Limitation of Liability
+
+IN NO EVENT SHALL SYNIT.IO OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. Termination
+
+Any use in violation of this license automatically terminates the rights
+granted under this license.
+
+9. Governing Terms
+
+This license constitutes the entire agreement for use of the Software unless
+superseded by a separate written agreement with synit.io.
