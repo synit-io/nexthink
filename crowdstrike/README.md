@@ -187,3 +187,6 @@ The module automatically re-authenticates and retries when needed:
 ## Notes
 - Input hashes are normalized to lowercase before querying.
 - Current correlation strategy intentionally returns first client + first vulnerability per hash for performance.
+
+## Integration with Nexthink
+See [Nexthink-Enrich_Binaries.ps1](../enrichment_api/Nexthink-Enrich_Binaries.ps1) for example of how to send CrowdStrike vulnerability information to Nexthink.
