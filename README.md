@@ -35,9 +35,4 @@ synit.io.
 
 This is a source-available license, not an open-source license.
 
-Key points:
-- Commercial internal use is allowed.
-- You may not offer this project (or modified versions) as a hosted/service-provider/distributor offering for monetary gain.
-- Only synit.io, as the original creator, is permitted to provide such monetized service/distribution offerings based on this project.
-
 See [LICENSE](./LICENSE).
