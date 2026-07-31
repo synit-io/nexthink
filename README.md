@@ -76,11 +76,16 @@ Contributions are welcome. To propose improvements, new integrations, or fixes, 
 By contributing, you agree that your contributions may be used and distributed under this repository's license.
 
 ## License
+This project is licensed under the Synit Repository License (SRL) v1.1.
 
-This repository is licensed under the custom Synit License in [LICENSE](./LICENSE).
+You may use it for free for personal, educational, evaluation, and internal
+business purposes, including internal production use inside your own company.
 
-Key points:
+You may not offer it as a SaaS, hosted product, managed service, reseller
+offering, distributor offering, service-provider solution, paid integration,
+or other commercial third-party service without prior written permission from
+synit.io.
 
-- Commercial internal use is allowed.
-- You may not offer this project or modified versions as a monetized hosted, service-provider, or distributor offering.
-- Only synit.io, as the original creator, may provide monetized services or distribution based on this project.
+This is a source-available license, not an open-source license.
+
+See [LICENSE](./LICENSE).
