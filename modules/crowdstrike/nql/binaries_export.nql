@@ -1,0 +1,2 @@
+binaries
+| list uid, binary.name, binary.product_name, binary.company, binary.version, sha-256_hash_hex
