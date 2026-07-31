@@ -1,81 +1,353 @@
-Synit Repository License (SRL) v1.0
+Synit Repository License (SRL) v1.1
+Source-Available Internal Use License
 
 Copyright (c) 2026 synit.io
 All rights reserved.
 
+SPDX-License-Identifier: LicenseRef-SRL-1.1
+
+IMPORTANT: This is not an open-source license. The Software is made
+available for viewing, evaluation, modification, and permitted internal use,
+but commercial service, hosting, managed-service, reseller, distributor,
+integrator, and SaaS use by anyone other than synit.io is prohibited unless
+synit.io gives prior written permission.
+
 1. Definitions
 
-"Software" means the contents of this repository, including source code,
-modules, scripts, documentation, and any modifications.
+"Licensor" means synit.io, its legal successors, and its authorized assigns.
 
-"Use" means running, copying, modifying, and creating derivative works of the
+"You" or "Licensee" means any individual or legal entity that receives,
+downloads, accesses, copies, modifies, runs, or otherwise uses the Software.
+
+"Software" means the contents of this repository, including source code,
+object code, modules, packages, scripts, configuration files, documentation,
+examples, templates, designs, build files, and all modifications, extensions,
+derivative works, or substantial portions of any of the foregoing.
+
+"Use" means to access, download, copy, install, run, execute, test, evaluate,
+study, modify, compile, build, deploy, or create derivative works of the
 Software.
 
-"Commercial Internal Use" means use of the Software inside your own
-organization, including for business purposes, without offering the Software as
-a standalone or embedded commercial service to third parties.
+"Internal Users" means your employees, officers, directors, contractors,
+consultants, and Affiliates who access or use the Software solely on your
+behalf and solely for your own internal business operations.
 
-"Service/Distribution Monetization" means directly or indirectly making money
-from distributing, sublicensing, hosting, managing, operating, or providing
-access to the Software (or substantial portions/derivatives) as a product,
-service, managed service, SaaS, platform feature, or distributor/reseller
-offering for third parties.
+"Affiliate" means an entity that directly or indirectly controls, is controlled
+by, or is under common control with you.
 
-2. Grant of Rights
+"Permitted Internal Use" means Use of the Software by you and your Internal
+Users solely for your own internal operations, workflows, administration,
+automation, research, development, testing, security, reporting, analytics,
+or other internal business purposes.
 
-Subject to this license, synit.io grants you a non-exclusive,
-worldwide, royalty-free license to:
+Permitted Internal Use includes production use inside your own organization,
+including by for-profit companies, provided that the Software is not offered,
+hosted, operated, managed, distributed, exposed, or made available to third
+parties as part of a product, platform, service, SaaS, managed service,
+service-provider offer, outsourcing offer, consulting offer, reseller offer,
+or other commercial offering.
 
-- Use the Software for personal, educational, and internal business purposes;
-- Modify the Software for your own use;
-- Share source modifications within your own organization.
+"Third Party" means any person or entity other than you, your Affiliates,
+and your Internal Users.
 
-Commercial Internal Use is explicitly permitted.
+"External User" means any Third Party, including any customer, client,
+prospect, partner, supplier, vendor, reseller, distributor, or public user.
 
-3. Restrictions
+"Commercial Service Use" means directly or indirectly monetizing the Software,
+or making the Software available to Third Parties, including by offering,
+selling, reselling, sublicensing, distributing, hosting, managing, operating,
+supporting, integrating, embedding, white-labeling, outsourcing, providing
+access to, or otherwise using the Software as part of a paid or monetized
+product, service, SaaS, managed service, platform, marketplace, consulting
+service, implementation service, integration service, reseller offer,
+distributor offer, agency offer, freelancer offer, or service-provider offer.
 
-You may not, without prior written permission from synit.io:
+Commercial Service Use includes use where the Software is a material part of
+a paid or monetized offering, even if the Software itself is not separately
+itemized, separately charged, or separately branded.
 
-- Sell, sublicense, distribute for a fee, or commercially redistribute the
-  Software as a standalone offering;
-- Offer the Software (or modified versions) as a hosted, managed, or
-  service-provider solution to third parties for monetary gain;
-- Monetize the Software through distributor, reseller, or integrator channels
-  where the Software is a material part of the paid offering;
-- Remove or alter this license notice.
+"Managed Service" means any arrangement in which a person or entity hosts,
+runs, operates, administers, maintains, monitors, supports, customizes, or
+provides access to the Software for or on behalf of a Third Party, whether
+or not the Software is branded as synit.io software.
 
-Only synit.io, as the original creator, is authorized to perform
-Service/Distribution Monetization of this Software.
+"Attribution Notice" means a notice substantially similar to:
 
-4. Ownership
+    "This software uses [PROJECT NAME] by synit.io."
 
-The Software is licensed, not sold. synit.io retains all right, title,
-and interest in and to the Software.
+or, where technically reasonable:
 
-5. Contributions
+    "Powered by [PROJECT NAME] by synit.io."
 
-Unless explicitly agreed otherwise in writing, any contribution submitted to
-this repository is provided under this same license.
+2. Acceptance
 
-6. Disclaimer of Warranty
+By downloading, accessing, copying, installing, running, modifying, or otherwise
+using the Software, you accept this License. If you do not agree to this
+License, you may not use the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+3. Grant of Rights
 
-7. Limitation of Liability
+Subject to your compliance with this License, Licensor grants you a limited,
+non-exclusive, non-transferable, non-sublicensable, worldwide, royalty-free
+license to:
 
-IN NO EVENT SHALL SYNIT.IO OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
-DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
-OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-OR OTHER DEALINGS IN THE SOFTWARE.
+a. view, download, copy, install, run, test, and evaluate the Software;
 
-8. Termination
+b. use the Software for personal, educational, research, development, testing,
+   and Permitted Internal Use purposes;
 
-Any use in violation of this license automatically terminates the rights
-granted under this license.
+c. modify the Software solely for your own personal use or Permitted Internal
+   Use;
 
-9. Governing Terms
+d. share copies and modifications of the Software within your own organization
+   and with your Internal Users, provided that all such use remains Permitted
+   Internal Use and remains subject to this License;
 
-This license constitutes the entire agreement for use of the Software unless
-superseded by a separate written agreement with synit.io.
+e. allow contractors or consultants to access and use the Software solely on
+   your behalf, solely for your Permitted Internal Use, and only if they are
+   bound by terms at least as protective of Licensor as this License; and
+
+f. submit issues, patches, pull requests, or other contributions to Licensor
+   for possible inclusion in the Software.
+
+Commercial Internal Use is expressly permitted. This means that a company may
+use the Software internally for free, including in production, as long as the
+company does not make the Software available to Third Parties or use it as part
+of a Commercial Service Use.
+
+4. Attribution Requirements
+
+You must retain all copyright notices, license notices, attribution notices,
+and other proprietary notices in the Software and in any copies or
+modifications.
+
+If you deploy or use the Software internally, you must provide reasonable
+attribution to synit.io. The attribution may be placed in a location that is
+reasonable for the form of the Software, such as:
+
+a. the user interface footer;
+b. an "About" or "Credits" screen;
+c. administrator documentation;
+d. internal technical documentation;
+e. repository documentation; or
+f. another reasonably visible location available to Internal Users.
+
+You are not required to publicly disclose your internal use of the Software
+solely because of this attribution requirement, provided that the Software is
+used only for Permitted Internal Use.
+
+You may not remove, obscure, or alter any attribution notice in a way that
+misrepresents the origin of the Software.
+
+You may not use the name, logo, domain, trade name, trademark, or branding of
+synit.io in a way that suggests endorsement, sponsorship, partnership, or
+commercial authorization unless synit.io has given prior written permission.
+
+5. Restrictions
+
+Except with prior written permission from synit.io, you may not:
+
+a. offer, sell, lease, rent, sublicense, resell, redistribute, or commercially
+   distribute the Software;
+
+b. offer or provide the Software, or any modified version, derivative work,
+   or substantial portion of it, as a SaaS product, hosted product, managed
+   service, cloud service, platform feature, API service, white-label solution,
+   marketplace application, paid plugin, paid extension, or paid add-on;
+
+c. use the Software to provide services to Third Parties as a freelancer,
+   agency, consultant, systems integrator, managed service provider, hosting
+   provider, outsourcing provider, reseller, distributor, or other service
+   provider;
+
+d. host, operate, manage, administer, monitor, support, customize, or maintain
+   the Software for any Third Party as a paid or monetized service;
+
+e. make the Software available to External Users as part of a commercial
+   product, commercial platform, commercial workflow, commercial portal,
+   customer-facing service, partner-facing service, or monetized offering;
+
+f. include the Software as a material component of any paid product, paid
+   service, paid subscription, paid support package, paid implementation,
+   paid integration, paid consulting package, paid training, or paid managed
+   offering;
+
+g. use the Software in a service bureau, time-sharing, outsourcing, or
+   application-service-provider arrangement;
+
+h. use the Software to create, operate, or offer a competing commercial service
+   or substantially similar commercial hosted offering;
+
+i. remove, obscure, or alter copyright notices, license notices, attribution
+   notices, or proprietary notices;
+
+j. circumvent, disable, or interfere with any license key, attribution,
+   telemetry, usage-limitation, access-control, or rights-management mechanism
+   included in the Software, if any;
+
+k. claim ownership of the Software or misrepresent the Software as your own
+   original work;
+
+l. grant sublicenses or other rights in the Software to any Third Party;
+
+m. use the Software in violation of applicable law; or
+
+n. authorize, assist, enable, or encourage any Third Party to do anything that
+   this License prohibits.
+
+For clarity, a company may hire a contractor to help install, configure, or
+modify the Software solely for that company's own Permitted Internal Use.
+However, the contractor does not receive any independent right to offer,
+package, host, manage, resell, commercialize, or reuse the Software as part
+of the contractor's own service business.
+
+6. Rights Reserved to synit.io
+
+Licensor retains all right, title, and interest in and to the Software.
+
+No rights are granted except as expressly stated in this License. All other
+rights are reserved by Licensor.
+
+Only synit.io, as Licensor, is authorized to perform Commercial Service Use
+of the Software, including offering the Software as a SaaS solution, managed
+service, hosted service, paid product, commercial platform feature, reseller
+offering, distributor offering, or other monetized service.
+
+Nothing in this License restricts synit.io from using, licensing, sublicensing,
+selling, hosting, managing, distributing, relicensing, dual-licensing, or
+commercially exploiting the Software in any way.
+
+7. Separate Commercial Licenses
+
+If you want to use the Software outside the scope of this License, including
+for Commercial Service Use, SaaS use, managed-service use, reseller use,
+distributor use, service-provider use, customer-facing use, or other
+third-party use, you must obtain a separate written commercial license from
+synit.io.
+
+A separate written agreement signed or otherwise expressly accepted by synit.io
+may override this License for the parties to that agreement.
+
+8. Contributions
+
+Unless a separate written agreement states otherwise, by submitting any issue,
+patch, pull request, code, documentation, design, idea, suggestion, or other
+contribution to the Software, you agree that:
+
+a. your contribution is provided under this License;
+
+b. you grant synit.io a perpetual, irrevocable, worldwide, royalty-free,
+   fully paid-up, transferable, sublicensable license to use, copy, modify,
+   create derivative works from, distribute, publicly perform, publicly display,
+   make, have made, sell, offer for sale, import, export, host, operate,
+   provide as a service, commercialize, relicense, and otherwise exploit your
+   contribution in any form and for any purpose;
+
+c. synit.io may include your contribution in the Software or any other synit.io
+   product, service, SaaS offering, commercial offering, or proprietary
+   offering;
+
+d. you represent that you have the right to submit the contribution and to
+   grant the rights described in this section; and
+
+e. synit.io is not required to use, accept, publish, or maintain your
+   contribution.
+
+For stronger contribution control, synit.io may require a separate Contributor
+License Agreement before accepting contributions.
+
+9. Third-Party Components
+
+The Software may include or depend on third-party software, libraries, packages,
+or components. Those third-party components may be subject to their own license
+terms. This License does not modify or replace the license terms of third-party
+components.
+
+You are responsible for complying with all applicable third-party license terms.
+
+10. No Trademark License
+
+This License does not grant you any right to use the trademarks, service marks,
+trade names, logos, domain names, branding, or product names of synit.io, except
+as strictly necessary to provide the attribution required by this License.
+
+11. Compliance
+
+Upon reasonable written request from synit.io, you agree to provide information
+sufficient to confirm that your use of the Software complies with this License.
+You are not required to disclose confidential business information beyond what
+is reasonably necessary to verify compliance.
+
+12. Termination
+
+Any violation of this License automatically terminates all rights granted to you
+under this License.
+
+Upon termination, you must immediately stop using the Software and destroy all
+copies in your possession or control, except to the extent retention is required
+by law or by ordinary-course backup systems that are not used to run or access
+the Software.
+
+If your violation was not related to Commercial Service Use and you fully cure
+the violation within thirty (30) days after becoming aware of it, your rights
+under this License are reinstated unless synit.io has notified you in writing
+that your rights remain terminated.
+
+Violations involving Commercial Service Use, SaaS use, managed-service use,
+reseller use, distributor use, service-provider use, or removal of attribution
+are material violations and may be treated by synit.io as incurable unless
+synit.io agrees otherwise in writing.
+
+13. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WITHOUT
+LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+TITLE, NON-INFRINGEMENT, SECURITY, RELIABILITY, AVAILABILITY, OR ERROR-FREE
+OPERATION.
+
+YOU USE THE SOFTWARE AT YOUR OWN RISK.
+
+14. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, SYNIT.IO AND ITS CONTRIBUTORS SHALL
+NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+EXEMPLARY, PUNITIVE, OR OTHER DAMAGES, INCLUDING WITHOUT LIMITATION LOST
+PROFITS, LOST REVENUE, LOST DATA, BUSINESS INTERRUPTION, LOSS OF GOODWILL,
+SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE, OR COST OF SUBSTITUTE
+GOODS OR SERVICES, ARISING OUT OF OR RELATING TO THE SOFTWARE OR THIS LICENSE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+15. Indemnity
+
+If you use the Software in violation of this License, you agree to indemnify,
+defend, and hold harmless synit.io from and against any claims, damages,
+losses, liabilities, costs, and expenses, including reasonable legal fees,
+arising from or related to that violation.
+
+16. Governing Law
+
+This License is governed by the laws of the Federal Republic of Germany,
+excluding its conflict-of-law rules, unless mandatory law requires otherwise.
+
+The courts with jurisdiction over synit.io's principal place of business shall
+have exclusive jurisdiction over disputes arising out of or relating to this
+License, unless mandatory law requires otherwise.
+
+17. Entire Agreement
+
+This License constitutes the entire agreement between you and synit.io regarding
+use of the Software, unless superseded by a separate written agreement with
+synit.io.
+
+18. Severability
+
+If any provision of this License is held to be unenforceable, the remaining
+provisions remain in full force and effect. The unenforceable provision shall
+be interpreted or replaced to the maximum extent permitted by law to achieve
+the original intent of the provision.
+
+19. No Waiver
+
+Failure by synit.io to enforce any provision of this License does not waive
+synit.io's right to enforce that provision or any other provision later.
