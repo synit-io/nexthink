@@ -8,6 +8,7 @@
     It then groups identical events (by LogName, Level, Source, and EventID)
     to provide a summary report with occurrence counts, first seen, and last seen times.
     The output can be generated either as Markdown (default) or as a CSV file.
+    Markdown reports include available hardware manufacturer and model information.
 
 .PARAMETER Days
     The number of days back to query for events. Defaults to 7.
@@ -214,6 +215,16 @@ try {
             $reportRows | Export-Csv -Path $outputPath -NoTypeInformation -Encoding UTF8
         }
         'md' {
+            $hardwareManufacturer = $null
+            $hardwareModel = $null
+            try {
+                $computerSystem = Get-CimInstance -ClassName Win32_ComputerSystem
+                $hardwareManufacturer = $computerSystem.Manufacturer
+                $hardwareModel = $computerSystem.Model
+            } catch {
+                Write-Warning "Could not query Win32_ComputerSystem: $($_.Exception.Message)"
+            }
+
             try {
                 $operatingSystem = Get-CimInstance -ClassName Win32_OperatingSystem
                 $osCaption = $operatingSystem.Caption
@@ -230,7 +241,17 @@ try {
             $mdOutput = @(
                 '# Grouped Event Log Report',
                 "**Generated:** $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')",
-                "**Hostname:** $(ConvertTo-MarkdownCell -Value $env:COMPUTERNAME)",
+                "**Hostname:** $(ConvertTo-MarkdownCell -Value $env:COMPUTERNAME)"
+            )
+
+            if (-not [string]::IsNullOrWhiteSpace($hardwareManufacturer)) {
+                $mdOutput += "**Hardware Manufacturer:** $(ConvertTo-MarkdownCell -Value $hardwareManufacturer)"
+            }
+            if (-not [string]::IsNullOrWhiteSpace($hardwareModel)) {
+                $mdOutput += "**Hardware Model:** $(ConvertTo-MarkdownCell -Value $hardwareModel)"
+            }
+
+            $mdOutput += @(
                 "**Operating System:** $(ConvertTo-MarkdownCell -Value $osCaption)",
                 "**Windows Version:** $(ConvertTo-MarkdownCell -Value $osVersion)",
                 "**Windows Build:** $(ConvertTo-MarkdownCell -Value $osBuildNumber)",
